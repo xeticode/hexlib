@@ -1,0 +1,24 @@
+{
+  "name": "hexlib",
+  "version": "0.0.1",
+  "description": "All things hex",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx elm-tooling install",
+    "start": "npx elm reactor",
+    "tests": "npx elm-test-rs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeticode/hexlib.git"
+  },
+  "author": "XetiCode™ LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xeticode/hexlib/issues"
+  },
+  "homepage": "https://github.com/xeticode/hexlib#readme",
+  "devDependencies": {
+    "elm-tooling": "1.14.1"
+  }
+}
